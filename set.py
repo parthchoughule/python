@@ -1,0 +1,6 @@
+saish=set(map(str, input("Enter Your Favourite Songs:").split()))
+pranav=set(map(str, input("Enter Your Favourite Songs:").split()))
+set1=saish.intersection(pranav)
+set2=saish.union(pranav)
+print("Common Favourite Songs:",set1)
+print("Combine Favourite Songs:",set2)
